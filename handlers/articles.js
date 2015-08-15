@@ -86,7 +86,7 @@ exports.list = function(request, reply) {
  exports.preware.articleByID = function(request, reply) {
 	Article.findById(request.params.articleId).populate('user').exec(function(err, article) {
 		if (err) {
-			Boom.badRequest(err);
+			reply(Boom.badRequest(err));
 		}
 		if (!article) {
 			reply(Boom.badRequest("Unable to find that article"));
