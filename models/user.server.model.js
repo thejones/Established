@@ -7,7 +7,6 @@ var mongoose = require('mongoose'),
 	joi = require('joi'),
 	Schema = mongoose.Schema,
 	config = require('config'),
-	stripeCustomer = require('./plugins/stripe-customer'),
 	timestamps = require('mongoose-timestamp'),
 	crypto = require('crypto');
 

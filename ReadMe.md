@@ -16,9 +16,44 @@ This project should feel very familiar to Express developers.
 ## Coming soon 
  
  * More tests. Lab makes these so EASY!
+ * Add npm scripts for test coverage - currently very low. 
  * Finish auth flow - Add email, forgot password, etc. WIP
  * Add Stripe into the mix. WIP 
- * Bug fixes and things I missed. 
+ * Bug fixes and things I missed.
+ * Verifying status codes with Boom (Copy/Paste mistakes) 
+ 
+## Getting started 
+
+* Clone/Fork the repo
+* Have Node installed 
+* npm install within the project structure
+* node/nodemon server.js 
+* Use Postman, PAW, other to test the flow. 
+
+Visit 
+```
+/api/auth/signup 
+
+```
+
+```
+/api/auth/signin
+
+```
+Send a POST with Authorization header to: 
+```
+/api/articles
+
+```
+
+GET request 
+
+```
+/api/articles
+
+```
+
+ 
  
  
 ## Credits 
